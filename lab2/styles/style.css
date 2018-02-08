@@ -10,8 +10,76 @@ header, section, article, nav, aside, footer, div{
   margin: 10px;
 }
 
-
-
 .bold{font-weight:bold;}
 
 #first-para {font-weight:bold;}
+
+body {
+    background-color: linen;
+}
+
+
+
+img{
+  border: 1px solid #ddd;
+      border-radius: 2px;
+      padding: 3px;
+      width: 150px;
+
+}
+
+header h1{
+display: inline-block;
+font-size: 50px;
+text-align: center;
+}
+
+header img {
+  display: inline-block;
+  float: left;
+}
+
+header time {
+  display: inline-block;
+  font-size: 25px;
+}
+
+div p1 {
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 20px;
+}
+div p2 {
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 20px;
+}
+div p3 {
+  display: inline-block;
+  font-size: 12px;
+}
+
+#material #SiteImg {
+  display: inline-block;
+  border: 1px solid #ddd;
+      border-radius: 2px;
+      padding: 3px;
+      width: 600px;
+}
+
+#material p4 {
+  display: inline-block;
+  padding-right: 20px;
+}
+#material p5 {
+  display: inline-block;
+  padding-right: 20px;
+}
+#material p6 {
+  display: inline-block;
+  padding-right: 20px;
+}
+#material p7 {
+  display: inline-block;
+  padding-right: 20px;
+}
