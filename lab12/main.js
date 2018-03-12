@@ -7,7 +7,7 @@ $('#shakey').click(function(){
 
   console.log("getting quakes");
 
-  $.get.JSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",function(result){
+  $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",function(result){
 
     console.log(result)
 
@@ -34,7 +34,7 @@ $('#dropey').click(function(){
 
   console.log("getting meteors");
 
-  $.get.JSON("https://data.nasa.gov/resource/gh4g-9sfh.json",function(result){
+  $.getJSON("https://data.nasa.gov/resource/gh4g-9sfh.json",function(result){
 
     console.log(result)
 
