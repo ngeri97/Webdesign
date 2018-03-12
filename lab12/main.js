@@ -40,10 +40,10 @@ $('#dropey').click(function(){
 
     console.log(result)
 
-    result.features.forEach(function(meteor){
+    result.forEach(function(meteor){
 
-      var lng = meteor.geometry.coordinates[0];
-      var lat = meteor.geometry.coordinates[1];
+      var lng = meteor.geolocation.longitude;
+      var lat = meteor.geolocation.latitude;
 
       var mag = parseFloat(meteor.properties.mass);
 
