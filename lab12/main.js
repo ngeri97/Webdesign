@@ -45,7 +45,7 @@ $('#dropey').click(function(){
       var lng = meteor.geolocation.longitude;
       var lat = meteor.geolocation.latitude;
 
-      var mag = parseFloat(meteor.properties.mass);
+      var mass = parseFloat(meteor.mass);
 
       var circle = L.circle([lat, lng], mass*100, {
         color: 'blue',
