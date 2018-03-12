@@ -16,7 +16,9 @@ $('#shakey').click(function(){
       var lng = quake.geometry.coordinates[0];
       var lat = quake.geometry.coordinates[1];
 
-      var circle = L.circle([lat, lng], mag*10000, {
+      var mag = parseFloat(quake.properties.mag);
+
+      var circle = L.circle([lat, lng], 1, {
         color: 'red',
         opacity: 0,
         fillColor: 'red',
@@ -42,6 +44,8 @@ $('#dropey').click(function(){
 
       var lng = meteor.geometry.coordinates[0];
       var lat = meteor.geometry.coordinates[1];
+
+      var mag = parseFloat(meteor.properties.mass);
 
       var circle = L.circle([lat, lng], mass*100, {
         color: 'blue',
