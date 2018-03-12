@@ -50,7 +50,7 @@ $('#dropey').click(function(){
         fillOpacity: 0.8
       })
 
-      circle.addTo(mymap)bindPopup(''+meteor.name+'');
+      circle.addTo(mymap).bindPopup(''+meteor.name+'');
     });
 
   });
