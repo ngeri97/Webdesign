@@ -22,7 +22,6 @@ app.get('/getTwitter', function(req, res) {
     };
     
     console.log(req.query);
-    
     client.get('statuses/user_timeline', params, function(error, tweets, response) {
         if(!error) {
             var output = "";
